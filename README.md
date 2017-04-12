@@ -1,16 +1,16 @@
-# About eb_merge_wizard
+# About Merge Issues
 
 
 
-Merging multiple tasks into one is not possible with odoo standard out-of-the-box. This module is used to merge multiple odoo project-tasks into one, at once, in a few clicks. 
+Merging multiple issues into one is not possible with odoo standard out-of-the-box. This module is used to merge multiple odoo project-issues into one, at once, in a few clicks. 
 
-Select multiple multiple tasks from the list view and click on MERGE TASKS in the Action. A wizard allows to make certain selections. One more click and you have merged!
+Select multiple multiple issues from the list view and click on MERGE ISSUES in the Action. A wizard allows to make certain selections. One more click and you have merged!
 
 # Installation
 
 Use git clone or just download the .zip package files, unzip at the addons directory, update the modules list and install the module. No further configuration is needed, you are good to go.
 
-Have a great time user. It's a NEBIZ® creation. Merge multiple tasks with merge_tasks_wizard!!! Cheers.
+Have a great time user. It's a NEBIZ® creation. Merge multiple Issues with eb_merge_issues!!! Cheers.
 
 # Compatibility
 
