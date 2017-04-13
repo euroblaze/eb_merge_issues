@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from odoo import http
+from openerp import http
 
 # class EbMergeIssues(http.Controller):
 #     @http.route('/eb_merge_issues/eb_merge_issues/', auth='public')
