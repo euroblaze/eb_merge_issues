@@ -50,8 +50,8 @@ class EbMergeIssues(models.TransientModel):
             if id.id != self.dst_issue_id.id:
                 for name in id:
                 # append the names and desc to the empty lists
-                        names.append(name.name)
-                        desc.zappend(name.description)
+                    names.append(name.name)
+                    desc.append(name.description)
                 #self.issue_ids.write({'message_ids' : self.dst_issue_id.message_ids})
         #transfering the messages from issue_ids to dst_issue_id
         for message in self.issue_ids:
