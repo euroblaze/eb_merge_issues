@@ -95,7 +95,7 @@ class EbMergeIssues(models.TransientModel):
         #loop all active issues
         for issue in self.issue_ids:
             #post the link to every issue
-            issue.message_post(body="This issue has been merged into: " '%s/#id=%s&amp;view_type=form&amp;model=project.issue' % (base_url, self.dst_issue_id.id))
+            issue.message_post(body="This issue has been merged into: " '%s/web#id=%s&amp;view_type=form&amp;model=project.issue' % (base_url, self.dst_issue_id.id))
 
         self.issue_ids.write({'active':False})
         #explicitly write the dst_issue_id TRUE for ACTIVE for security reasons
