@@ -8,8 +8,8 @@
     'description': """
         This module will be used to merge multiple issues into one
     """,
-
-    'author': "Cona Cons (RISTE KABRANOV)",
+#Cona Cons (RISTE KABRANOV)
+    'author': "odoo@simplify-erp.com",
     'website': "http://www.euroblaze.de",
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
