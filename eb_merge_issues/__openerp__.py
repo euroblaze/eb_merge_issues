@@ -16,7 +16,7 @@
     # for the full list
     'category': 'Administration',
     'version': '0.1',
-
+    'images' : ['static/description/banner.jpg'],
     # any module necessary for this one to work correctly
     'depends': ['base','project','project_issue', 'project_issue_sheet'],
 
